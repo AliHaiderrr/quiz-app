@@ -1,0 +1,50 @@
+.App{
+  text-align: center;
+ 
+
+}
+
+/* body{
+  background-color: rgb(173, 163, 163);
+} */
+.App{
+  background-image: url(./imges/pexels-photo-399160.jpeg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.App > h1{
+  text-shadow: 4px 2px 5px #917373;
+}
+.question_container{
+  width: 500px;
+  padding: 34px;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 63px;
+  box-shadow: 0px 0px 10px #3333;
+}
+
+.form_container .submit{
+  width: 100%;
+  border: none;
+  background-color: #1e1e75;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 7px;
+  margin-top: 20px;
+}
+
+.question_container .radio{
+
+  display: block;
+  margin: 0 10px;
+  padding: 10px;
+  
+}
+.question_container  .reasult_container{
+
+  text-align: center;
+}
